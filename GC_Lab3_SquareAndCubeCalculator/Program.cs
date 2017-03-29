@@ -13,12 +13,11 @@ namespace GC_Lab3_SquareAndCubeCalculator
             Boolean run = true;
             int myInt;
             Console.WriteLine("Learn your squares and cubes!");
-            Console.WriteLine("");
             while (run)
             {
-                Console.Write("Enter an integer: ");
-                Console.WriteLine("");
+                Console.Write("\nEnter an integer: ");                              
                 int.TryParse(Console.ReadLine(), out myInt);
+                Console.Write("\n");
                 Console.WriteLine("Number \tSquared  Cubed");
                 Console.WriteLine("====== \t=======  =====");
                 WriteOutput(myInt);
@@ -40,13 +39,13 @@ namespace GC_Lab3_SquareAndCubeCalculator
         }
         public static Boolean Continue()
         {
-            Console.WriteLine("Continue? (Y/N): ");
+            Console.Write("\nContinue? (Y/N): ");
             string input = Console.ReadLine();
             Boolean run = true;
             input = input.ToLower();
             if (input == "n")
             {
-                Console.WriteLine("Goodbye!");
+                Console.WriteLine("\nGoodbye!");
                 run = false;
             }
             else if (input == "y")
