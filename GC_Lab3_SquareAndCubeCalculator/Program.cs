@@ -4,10 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Pete Rossman
+//GC .NET Bootcamp Lab 3
+//March 29, 2017
+
 namespace GC_Lab3_SquareAndCubeCalculator
 {
     class Program
     {
+        //This program takes an integer as intput
+        //and outputs a list of numbers with their squares and cubes
+        //up to the number input.
+
         static void Main(string[] args)
         {
             Boolean run = true;
@@ -26,9 +34,14 @@ namespace GC_Lab3_SquareAndCubeCalculator
             Console.ReadLine();
         }
 
+        //The square and cube methods are used to square and cube numbers.
+
         public static int Square(int num) => num * num;
 
         public static int Cube(int num) => num * num * num;
+
+        //The WriteOutput method prints numbers along with
+        //their squares and cubes up to the input.
 
         public static void WriteOutput(int num)
         {
@@ -37,6 +50,10 @@ namespace GC_Lab3_SquareAndCubeCalculator
                 Console.WriteLine(i + "\t" + Square(i) + "\t " + Cube(i));
             }
         }
+
+        //The Continue method runs the program again if the user wants
+        //or allows the user to exit.
+
         public static Boolean Continue()
         {
             Console.Write("\nContinue? (Y/N): ");
@@ -57,7 +74,6 @@ namespace GC_Lab3_SquareAndCubeCalculator
                 Console.WriteLine("I'm sorry, I didn't understand your input. Let's try that again!");
                 run = Continue();
             }
-
             return run;
         }
     }
