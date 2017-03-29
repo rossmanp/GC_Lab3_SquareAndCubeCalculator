@@ -1,0 +1,6 @@
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\GC_Lab3_SquareAndCubeCalculator\GC_Lab3_SquareAndCubeCalculator\bin\Debug\GC_Lab3_SquareAndCubeCalculator.exe.config
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\GC_Lab3_SquareAndCubeCalculator\GC_Lab3_SquareAndCubeCalculator\bin\Debug\GC_Lab3_SquareAndCubeCalculator.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\GC_Lab3_SquareAndCubeCalculator\GC_Lab3_SquareAndCubeCalculator\bin\Debug\GC_Lab3_SquareAndCubeCalculator.pdb
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\GC_Lab3_SquareAndCubeCalculator\GC_Lab3_SquareAndCubeCalculator\obj\Debug\GC_Lab3_SquareAndCubeCalculator.csprojResolveAssemblyReference.cache
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\GC_Lab3_SquareAndCubeCalculator\GC_Lab3_SquareAndCubeCalculator\obj\Debug\GC_Lab3_SquareAndCubeCalculator.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\GC_Lab3_SquareAndCubeCalculator\GC_Lab3_SquareAndCubeCalculator\obj\Debug\GC_Lab3_SquareAndCubeCalculator.pdb
